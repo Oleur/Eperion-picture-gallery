@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/item_effect"
+        android:icon="@drawable/ic_menu_effect"
+        android:title="Picture Effect"/>
+    <item
+        android:id="@+id/item_save_new_pic"
+        android:icon="@drawable/ic_menu_gallery"
+        android:title="Save and go to the gallery"/>
+    <item
+        android:id="@+id/save_exit_item"
+        android:icon="@drawable/ic_menu_exit"
+        android:title="Save and exit"/>
+</menu>

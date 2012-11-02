@@ -1,0 +1,15 @@
+var searchData=
+[
+  ['sepia',['sepia',['../classcom_1_1android_1_1e_perion_1_1gallery_1_1picture_effect_1_1_picture_color_effect.html#a3ec97cb43e9f3dc102e85d77e57e3aea',1,'com::android::ePerion::gallery::pictureEffect::PictureColorEffect']]],
+  ['setcheck',['setCheck',['../classcom_1_1android_1_1e_perion_1_1gallery_1_1_list_attribute.html#a31f4c8b9e190248829b423217c21c4fc',1,'com::android::ePerion::gallery::ListAttribute']]],
+  ['setcomment',['setComment',['../classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_picture.html#ae7348db7351b39a310ad1c1505f15567',1,'com.android.ePerion.gallery.database.Picture.setComment()'],['../classcom_1_1android_1_1e_perion_1_1gallery_1_1_list_attribute.html#ad66003bb1ca9e844125f091b04810e36',1,'com.android.ePerion.gallery.ListAttribute.setComment()']]],
+  ['setdate',['setDate',['../classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_picture.html#a6bf1053960d898332508941ad847633f',1,'com::android::ePerion::gallery::database::Picture']]],
+  ['setid',['setId',['../classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_picture.html#ae7738ad2c21e1d6bee6b5e38241d3773',1,'com.android.ePerion.gallery.database.Picture.setId()'],['../classcom_1_1android_1_1e_perion_1_1gallery_1_1_list_attribute.html#a2ee1534e0c69f5dc54061fca2df052b5',1,'com.android.ePerion.gallery.ListAttribute.setId()']]],
+  ['setlat',['setLat',['../classcom_1_1android_1_1e_perion_1_1gallery_1_1_list_attribute.html#a228b50998eddb48c52178d15ff4515d6',1,'com::android::ePerion::gallery::ListAttribute']]],
+  ['setlatitude',['setLatitude',['../classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_picture.html#ab233232658aea2a565394dffc74c2e75',1,'com::android::ePerion::gallery::database::Picture']]],
+  ['setlng',['setLng',['../classcom_1_1android_1_1e_perion_1_1gallery_1_1_list_attribute.html#acc3bea9deb9d47caba8a29e56858e8b7',1,'com::android::ePerion::gallery::ListAttribute']]],
+  ['setlocation',['setLocation',['../classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_picture.html#acf0b4f2a1cb9aef92565fe0841e5b7ed',1,'com::android::ePerion::gallery::database::Picture']]],
+  ['setlongitude',['setLongitude',['../classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_picture.html#a4fb13b0ae4388fc5ffbe09e51854d890',1,'com::android::ePerion::gallery::database::Picture']]],
+  ['setname',['setName',['../classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_picture.html#a5a1015c9cb26d85ecd86b53d2d34f599',1,'com.android.ePerion.gallery.database.Picture.setName()'],['../classcom_1_1android_1_1e_perion_1_1gallery_1_1_list_attribute.html#a6c5933d5df60c4b4bbf013640357ea56',1,'com.android.ePerion.gallery.ListAttribute.setName()']]],
+  ['seturi',['setUri',['../classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_picture.html#aa275cb68a9a233ec5c683751925be17a',1,'com.android.ePerion.gallery.database.Picture.setUri()'],['../classcom_1_1android_1_1e_perion_1_1gallery_1_1_list_attribute.html#a36056b5b758eedae9a2541861ac8b1d1',1,'com.android.ePerion.gallery.ListAttribute.setUri()']]]
+];

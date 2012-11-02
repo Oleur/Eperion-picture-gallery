@@ -1,0 +1,149 @@
+\section{com.\-android.\-e\-Perion.\-gallery.\-Preview\-Picture Class Reference}
+\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_preview_picture}\index{com.\-android.\-e\-Perion.\-gallery.\-Preview\-Picture@{com.\-android.\-e\-Perion.\-gallery.\-Preview\-Picture}}
+Inheritance diagram for com.\-android.\-e\-Perion.\-gallery.\-Preview\-Picture\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classcom_1_1android_1_1e_perion_1_1gallery_1_1_preview_picture}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+boolean {\bfseries on\-Create\-Options\-Menu} (Menu menu)\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_preview_picture_a788f569dcffa06ea332ead1739324832}
+
+\item 
+boolean {\bfseries on\-Prepare\-Options\-Menu} (Menu menu)\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_preview_picture_afbb4db54d6548280fc8c3780961c18db}
+
+\item 
+boolean {\bfseries on\-Options\-Item\-Selected} (Menu\-Item item)\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_preview_picture_ae9f232f9a5779777bfb9a5e36058c93a}
+
+\item 
+Object {\bfseries on\-Retain\-Non\-Configuration\-Instance} ()\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_preview_picture_acca6979475c85511a47c8dcce3f3a33e}
+
+\item 
+String {\bf get\-Real\-Path\-From\-U\-R\-I} (Uri content\-Uri)
+\item 
+String {\bf get\-Image\-Name} (Uri content\-Uri)
+\item 
+String {\bf get\-Image\-Date} (Uri content\-Uri)
+\item 
+String {\bf get\-Image\-Longitude} (Uri content\-Uri)
+\item 
+String {\bf get\-Image\-Latitude} (Uri content\-Uri)
+\end{DoxyCompactItemize}
+\subsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void {\bf on\-Create} (Bundle saved\-Instance\-State)
+\item 
+void {\bfseries on\-Resume} ()\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_preview_picture_a612fba5c68e7247610fda3873792e498}
+
+\item 
+void {\bfseries on\-Restart} ()\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_preview_picture_a00c4aff73f8be25a6a6de09a8fa871a2}
+
+\item 
+void {\bfseries on\-Save\-Instance\-State} (Bundle out\-State)\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_preview_picture_a307c02522ec619ea5eb2769b4b67393e}
+
+\item 
+void {\bfseries on\-Restore\-Instance\-State} (Bundle saved\-Instance\-State)\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_preview_picture_a7733f6d72c618d74f7c12337ad6d277c}
+
+\item 
+Dialog {\bfseries on\-Create\-Dialog} (int id)\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_preview_picture_a0131818f811a67b18d055153d902877c}
+
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Picture preview before putting it into the custom gallery. The user will be able to modify the picture by adding color effects\-: set the picture to black\&white, sepia, negative or polaroïd. The modified picture will be stored in the sd card. \begin{DoxyAuthor}{Author}
+Julien Salvi 
+\end{DoxyAuthor}
+
+
+\subsection{Member Function Documentation}
+\index{com\-::android\-::e\-Perion\-::gallery\-::\-Preview\-Picture@{com\-::android\-::e\-Perion\-::gallery\-::\-Preview\-Picture}!get\-Image\-Date@{get\-Image\-Date}}
+\index{get\-Image\-Date@{get\-Image\-Date}!com::android::ePerion::gallery::PreviewPicture@{com\-::android\-::e\-Perion\-::gallery\-::\-Preview\-Picture}}
+\subsubsection[{get\-Image\-Date}]{\setlength{\rightskip}{0pt plus 5cm}String com.\-android.\-e\-Perion.\-gallery.\-Preview\-Picture.\-get\-Image\-Date (
+\begin{DoxyParamCaption}
+\item[{Uri}]{content\-Uri}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_preview_picture_a8d0b0dd1f015c146e1ff07e3fd3ab333}
+Retrieve the taken date for the picture. 
+\begin{DoxyParams}{Parameters}
+{\em content\-Uri} & U\-R\-I of the picture. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The taken date. 
+\end{DoxyReturn}
+\index{com\-::android\-::e\-Perion\-::gallery\-::\-Preview\-Picture@{com\-::android\-::e\-Perion\-::gallery\-::\-Preview\-Picture}!get\-Image\-Latitude@{get\-Image\-Latitude}}
+\index{get\-Image\-Latitude@{get\-Image\-Latitude}!com::android::ePerion::gallery::PreviewPicture@{com\-::android\-::e\-Perion\-::gallery\-::\-Preview\-Picture}}
+\subsubsection[{get\-Image\-Latitude}]{\setlength{\rightskip}{0pt plus 5cm}String com.\-android.\-e\-Perion.\-gallery.\-Preview\-Picture.\-get\-Image\-Latitude (
+\begin{DoxyParamCaption}
+\item[{Uri}]{content\-Uri}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_preview_picture_a18571388e9774d7609f80662b96608fa}
+Retrieve the latitude of the picture. 
+\begin{DoxyParams}{Parameters}
+{\em content\-Uri} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\index{com\-::android\-::e\-Perion\-::gallery\-::\-Preview\-Picture@{com\-::android\-::e\-Perion\-::gallery\-::\-Preview\-Picture}!get\-Image\-Longitude@{get\-Image\-Longitude}}
+\index{get\-Image\-Longitude@{get\-Image\-Longitude}!com::android::ePerion::gallery::PreviewPicture@{com\-::android\-::e\-Perion\-::gallery\-::\-Preview\-Picture}}
+\subsubsection[{get\-Image\-Longitude}]{\setlength{\rightskip}{0pt plus 5cm}String com.\-android.\-e\-Perion.\-gallery.\-Preview\-Picture.\-get\-Image\-Longitude (
+\begin{DoxyParamCaption}
+\item[{Uri}]{content\-Uri}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_preview_picture_a0826be1bba9d357d427f52498554ca63}
+Retrieve the longitude of the picture. 
+\begin{DoxyParams}{Parameters}
+{\em content\-Uri} & U\-R\-I of the picture. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The longitude. 
+\end{DoxyReturn}
+\index{com\-::android\-::e\-Perion\-::gallery\-::\-Preview\-Picture@{com\-::android\-::e\-Perion\-::gallery\-::\-Preview\-Picture}!get\-Image\-Name@{get\-Image\-Name}}
+\index{get\-Image\-Name@{get\-Image\-Name}!com::android::ePerion::gallery::PreviewPicture@{com\-::android\-::e\-Perion\-::gallery\-::\-Preview\-Picture}}
+\subsubsection[{get\-Image\-Name}]{\setlength{\rightskip}{0pt plus 5cm}String com.\-android.\-e\-Perion.\-gallery.\-Preview\-Picture.\-get\-Image\-Name (
+\begin{DoxyParamCaption}
+\item[{Uri}]{content\-Uri}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_preview_picture_afcba3994ed3acc168ebc2129fdcb2163}
+Get the image name from the U\-R\-I. 
+\begin{DoxyParams}{Parameters}
+{\em content\-Uri} & U\-R\-I of the picture. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The image name. 
+\end{DoxyReturn}
+\index{com\-::android\-::e\-Perion\-::gallery\-::\-Preview\-Picture@{com\-::android\-::e\-Perion\-::gallery\-::\-Preview\-Picture}!get\-Real\-Path\-From\-U\-R\-I@{get\-Real\-Path\-From\-U\-R\-I}}
+\index{get\-Real\-Path\-From\-U\-R\-I@{get\-Real\-Path\-From\-U\-R\-I}!com::android::ePerion::gallery::PreviewPicture@{com\-::android\-::e\-Perion\-::gallery\-::\-Preview\-Picture}}
+\subsubsection[{get\-Real\-Path\-From\-U\-R\-I}]{\setlength{\rightskip}{0pt plus 5cm}String com.\-android.\-e\-Perion.\-gallery.\-Preview\-Picture.\-get\-Real\-Path\-From\-U\-R\-I (
+\begin{DoxyParamCaption}
+\item[{Uri}]{content\-Uri}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_preview_picture_aeafc098e85b11ed14f282ebeb83cf668}
+Get the real path from the picture U\-R\-I. 
+\begin{DoxyParams}{Parameters}
+{\em content\-Uri} & U\-R\-I of the picture. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The picture real path. 
+\end{DoxyReturn}
+\index{com\-::android\-::e\-Perion\-::gallery\-::\-Preview\-Picture@{com\-::android\-::e\-Perion\-::gallery\-::\-Preview\-Picture}!on\-Create@{on\-Create}}
+\index{on\-Create@{on\-Create}!com::android::ePerion::gallery::PreviewPicture@{com\-::android\-::e\-Perion\-::gallery\-::\-Preview\-Picture}}
+\subsubsection[{on\-Create}]{\setlength{\rightskip}{0pt plus 5cm}void com.\-android.\-e\-Perion.\-gallery.\-Preview\-Picture.\-on\-Create (
+\begin{DoxyParamCaption}
+\item[{Bundle}]{saved\-Instance\-State}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [protected]}}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_preview_picture_a249f099f6929fe882cc934d0b5b44729}
+Called when the activity is first created. 
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/\-Data\-Julien/\-Programmes info/\-E-\/\-Perion Gallery/src/com/android/e\-Perion/gallery/Preview\-Picture.\-java\end{DoxyCompactItemize}

@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="app_name">E-Perion Gallery</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="mapKey">0JcoE7T5skE4egjN1Xmk6Zg1bPtMc1Jy3kEGGCg</string>
+    <string name="title_activity_gallery_view">GalleryView</string>
+    <string name="tmp_photo">tmp_photo</string>
+    <string name="tmp_photo_i">tmp_photo_i</string>
+    
+    <string name="black_and_white">Black and White</string>
+    <string name="sepia">Sepia</string>
+    <string name="negative">Negative</string>
+    <string name="polaroid">Polaroid</string>
+    
+    <string name="order_n">Order by name</string>
+    <string name="order_c">Order by location</string>
+    <string name="order_d">Order by date</string>
+    
+    <string name="order_city">Order by city</string>
+    <string name="order_country">Order by country</string>
+    <string name="order_perimeter">Order by a given perimeter</string>
+    
+    <string name="title_activity_picture_viewer">Picture Viewer</string>
+
+</resources>

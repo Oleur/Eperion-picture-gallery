@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="add_effect_menu">
+		<item>@string/black_and_white</item>
+		<item>@string/sepia</item>
+		<item>@string/negative</item>
+		<item>@string/polaroid</item>
+	</array>
+	<array name="order_by_location">
+	    <item>@string/order_country</item>
+	    <item>@string/order_city</item>
+	    <item>@string/order_perimeter</item>
+	</array>
+</resources>

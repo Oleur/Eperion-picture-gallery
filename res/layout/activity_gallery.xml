@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/AppTheme"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/eperion_background"
+    android:orientation="vertical"
+    android:padding="50dip" >
+
+    <ScrollView 
+	android:id="@+id/scroller"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:layout_weight="1">
+    <LinearLayout 
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center">
+    	<Button
+    		android:id="@+id/pickPicture"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:text="Add a photo to the Gallery"
+    		android:textColor="#aa0000"/>
+    	<Button
+    	    android:id="@+id/openGalleryButton"
+    	    android:layout_width="fill_parent"
+    	    android:layout_height="wrap_content"
+    	    android:text="Open your gallery"
+    	    android:layout_marginTop="10dp"
+    	    android:textColor="#aa0000"/>
+    </LinearLayout>
+   </ScrollView>
+</LinearLayout>

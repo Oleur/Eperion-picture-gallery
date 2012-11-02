@@ -1,0 +1,84 @@
+\section{com.\-android.\-e\-Perion.\-gallery.\-Picture\-List\-Adapter Class Reference}
+\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_picture_list_adapter}\index{com.\-android.\-e\-Perion.\-gallery.\-Picture\-List\-Adapter@{com.\-android.\-e\-Perion.\-gallery.\-Picture\-List\-Adapter}}
+Inheritance diagram for com.\-android.\-e\-Perion.\-gallery.\-Picture\-List\-Adapter\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classcom_1_1android_1_1e_perion_1_1gallery_1_1_picture_list_adapter}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class {\bfseries View\-Holder}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Picture\-List\-Adapter} (Activity context, List$<$ {\bf List\-Attribute} $>$ objects)
+\item 
+View {\bfseries get\-View} (int position, View convert\-View, View\-Group parent)\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_picture_list_adapter_aef2e0cb40f9eecf1796fd9c796d1f9ed}
+
+\item 
+String {\bf get\-Real\-Path\-From\-U\-R\-I} (Uri content\-Uri)
+\item 
+List$<$ {\bf List\-Attribute} $>$ {\bf get\-List\-Attribute} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Custom adapter that extends an array\-Adapter of list\-Attribute in order to display the different items of the custom list\-: picture icon, picture name, picture comment and the checkbox. \begin{DoxyAuthor}{Author}
+Julien Salvi 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{com\-::android\-::e\-Perion\-::gallery\-::\-Picture\-List\-Adapter@{com\-::android\-::e\-Perion\-::gallery\-::\-Picture\-List\-Adapter}!Picture\-List\-Adapter@{Picture\-List\-Adapter}}
+\index{Picture\-List\-Adapter@{Picture\-List\-Adapter}!com::android::ePerion::gallery::PictureListAdapter@{com\-::android\-::e\-Perion\-::gallery\-::\-Picture\-List\-Adapter}}
+\subsubsection[{Picture\-List\-Adapter}]{\setlength{\rightskip}{0pt plus 5cm}com.\-android.\-e\-Perion.\-gallery.\-Picture\-List\-Adapter.\-Picture\-List\-Adapter (
+\begin{DoxyParamCaption}
+\item[{Activity}]{context, }
+\item[{List$<$ {\bf List\-Attribute} $>$}]{objects}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_picture_list_adapter_a64f5cb1251622c190f83399f400943e5}
+The custom adapter in order to display the custom view. 
+\begin{DoxyParams}{Parameters}
+{\em context} & The Activity where the adapter is used. \\
+\hline
+{\em objects} & List of List\-Attributes to be displayed in the list\-View. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{com\-::android\-::e\-Perion\-::gallery\-::\-Picture\-List\-Adapter@{com\-::android\-::e\-Perion\-::gallery\-::\-Picture\-List\-Adapter}!get\-List\-Attribute@{get\-List\-Attribute}}
+\index{get\-List\-Attribute@{get\-List\-Attribute}!com::android::ePerion::gallery::PictureListAdapter@{com\-::android\-::e\-Perion\-::gallery\-::\-Picture\-List\-Adapter}}
+\subsubsection[{get\-List\-Attribute}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf List\-Attribute}$>$ com.\-android.\-e\-Perion.\-gallery.\-Picture\-List\-Adapter.\-get\-List\-Attribute (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_picture_list_adapter_a621216ce3c1d372cdd1dce64d9ac90f6}
+Get the list of list\-Attribute. \begin{DoxyReturn}{Returns}
+A list of \doxyref{List\-Attribute}{p.}{classcom_1_1android_1_1e_perion_1_1gallery_1_1_list_attribute}. 
+\end{DoxyReturn}
+\index{com\-::android\-::e\-Perion\-::gallery\-::\-Picture\-List\-Adapter@{com\-::android\-::e\-Perion\-::gallery\-::\-Picture\-List\-Adapter}!get\-Real\-Path\-From\-U\-R\-I@{get\-Real\-Path\-From\-U\-R\-I}}
+\index{get\-Real\-Path\-From\-U\-R\-I@{get\-Real\-Path\-From\-U\-R\-I}!com::android::ePerion::gallery::PictureListAdapter@{com\-::android\-::e\-Perion\-::gallery\-::\-Picture\-List\-Adapter}}
+\subsubsection[{get\-Real\-Path\-From\-U\-R\-I}]{\setlength{\rightskip}{0pt plus 5cm}String com.\-android.\-e\-Perion.\-gallery.\-Picture\-List\-Adapter.\-get\-Real\-Path\-From\-U\-R\-I (
+\begin{DoxyParamCaption}
+\item[{Uri}]{content\-Uri}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1_picture_list_adapter_acc3ba1a6c88ca1d1fcb57ba01575b439}
+Retrieve file's physical path from logical path.
+
+
+\begin{DoxyParams}{Parameters}
+{\em content\-Uri} & The picture Uri. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A String which is the file's physical path. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/\-Data\-Julien/\-Programmes info/\-E-\/\-Perion Gallery/src/com/android/e\-Perion/gallery/Picture\-List\-Adapter.\-java\end{DoxyCompactItemize}

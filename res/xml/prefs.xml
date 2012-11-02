@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+ <PreferenceCategory
+   android:summary="Picture effects"
+   android:title="Picture effects" >
+	  <CheckBoxPreference
+	     android:key="boxEffects"
+	     android:summary="yes/no"
+	     android:title="Manage picture effects"
+	     android:defaultValue="true"/>
+ </PreferenceCategory>
+ <PreferenceCategory
+   android:summary="Manage the sorts"
+   android:title="Sort the gallery" >
+	  <CheckBoxPreference
+	     android:key="boxOrderName"
+	     android:summary="Sort the pictures by name"
+	     android:title="Order by name"
+	     android:defaultValue="true"/>
+	  <CheckBoxPreference
+	     android:key="boxOrderDate"
+	     android:summary="Sort the pictures by date"
+	     android:title="Order by date" 
+	     android:defaultValue="true"/>
+	  <CheckBoxPreference
+	     android:key="boxOrderLocation"
+	     android:summary="Sort the pictures by location"
+	     android:title="Order by location"
+	     android:defaultValue="true"/>
+ </PreferenceCategory>
+</PreferenceScreen>

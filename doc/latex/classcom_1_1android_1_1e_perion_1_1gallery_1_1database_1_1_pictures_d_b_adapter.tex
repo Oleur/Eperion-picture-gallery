@@ -1,0 +1,203 @@
+\section{com.\-android.\-e\-Perion.\-gallery.\-database.\-Pictures\-D\-B\-Adapter Class Reference}
+\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_pictures_d_b_adapter}\index{com.\-android.\-e\-Perion.\-gallery.\-database.\-Pictures\-D\-B\-Adapter@{com.\-android.\-e\-Perion.\-gallery.\-database.\-Pictures\-D\-B\-Adapter}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf Pictures\-D\-B\-Adapter} (Context context)
+\item 
+void {\bf open} ()
+\item 
+void {\bf close} ()
+\item 
+S\-Q\-Lite\-Database {\bf get\-Database} ()
+\item 
+void {\bf drop\-Picture\-Table} ()
+\item 
+{\bf Picture} {\bf get\-Picture} (int id)
+\item 
+Array\-List$<$ {\bf Picture} $>$ {\bf get\-All\-Pictures\-Order\-By\-Date} ()
+\item 
+Array\-List$<$ {\bf Picture} $>$ {\bf get\-All\-Pictures\-Order\-By\-Location} ()
+\item 
+Array\-List$<$ {\bf Picture} $>$ {\bf get\-All\-Pictures\-Order\-By\-Name} ()
+\item 
+Array\-List$<$ {\bf Picture} $>$ {\bf get\-All\-Pictures} ()
+\item 
+void {\bf insert\-Picture} ({\bf Picture} pic)
+\item 
+void {\bf update\-Picture} (int id, {\bf Picture} picture\-To\-Update)
+\item 
+void {\bf remove\-Picture} (int id)
+\item 
+void {\bf remove\-Picture} (String name)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Database adapter which allows retrieve, update or insert picture attributes from the database. \begin{DoxyAuthor}{Author}
+Julien Salvi 
+\end{DoxyAuthor}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\index{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}!Pictures\-D\-B\-Adapter@{Pictures\-D\-B\-Adapter}}
+\index{Pictures\-D\-B\-Adapter@{Pictures\-D\-B\-Adapter}!com::android::ePerion::gallery::database::PicturesDBAdapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}}
+\subsubsection[{Pictures\-D\-B\-Adapter}]{\setlength{\rightskip}{0pt plus 5cm}com.\-android.\-e\-Perion.\-gallery.\-database.\-Pictures\-D\-B\-Adapter.\-Pictures\-D\-B\-Adapter (
+\begin{DoxyParamCaption}
+\item[{Context}]{context}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_pictures_d_b_adapter_a89091665d8f1a6cb0d9749a83c725d29}
+Construct the database adapter in the current context. 
+\begin{DoxyParams}{Parameters}
+{\em context} & Activity context. \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\index{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}!close@{close}}
+\index{close@{close}!com::android::ePerion::gallery::database::PicturesDBAdapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}}
+\subsubsection[{close}]{\setlength{\rightskip}{0pt plus 5cm}void com.\-android.\-e\-Perion.\-gallery.\-database.\-Pictures\-D\-B\-Adapter.\-close (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_pictures_d_b_adapter_a8854dbf9eeee37071d7584c19117a207}
+Close the database. \index{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}!drop\-Picture\-Table@{drop\-Picture\-Table}}
+\index{drop\-Picture\-Table@{drop\-Picture\-Table}!com::android::ePerion::gallery::database::PicturesDBAdapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}}
+\subsubsection[{drop\-Picture\-Table}]{\setlength{\rightskip}{0pt plus 5cm}void com.\-android.\-e\-Perion.\-gallery.\-database.\-Pictures\-D\-B\-Adapter.\-drop\-Picture\-Table (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_pictures_d_b_adapter_abca3624a36ef84f89c799abf893f49ef}
+Delete all rows which belong to the picture table. \index{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}!get\-All\-Pictures@{get\-All\-Pictures}}
+\index{get\-All\-Pictures@{get\-All\-Pictures}!com::android::ePerion::gallery::database::PicturesDBAdapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}}
+\subsubsection[{get\-All\-Pictures}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Picture}$>$ com.\-android.\-e\-Perion.\-gallery.\-database.\-Pictures\-D\-B\-Adapter.\-get\-All\-Pictures (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_pictures_d_b_adapter_a43eb76db1979da695cc87c110907ce74}
+Get all the pictures from the database. \begin{DoxyReturn}{Returns}
+An Array\-List of all pictures that belong to the database. 
+\end{DoxyReturn}
+\index{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}!get\-All\-Pictures\-Order\-By\-Date@{get\-All\-Pictures\-Order\-By\-Date}}
+\index{get\-All\-Pictures\-Order\-By\-Date@{get\-All\-Pictures\-Order\-By\-Date}!com::android::ePerion::gallery::database::PicturesDBAdapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}}
+\subsubsection[{get\-All\-Pictures\-Order\-By\-Date}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Picture}$>$ com.\-android.\-e\-Perion.\-gallery.\-database.\-Pictures\-D\-B\-Adapter.\-get\-All\-Pictures\-Order\-By\-Date (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_pictures_d_b_adapter_a54f08df741c8ec1a7f8b71980d7b0f47}
+Get all the pictures order by the date. \begin{DoxyReturn}{Returns}
+An Array\-List of all pictures that belong to the database. 
+\end{DoxyReturn}
+\index{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}!get\-All\-Pictures\-Order\-By\-Location@{get\-All\-Pictures\-Order\-By\-Location}}
+\index{get\-All\-Pictures\-Order\-By\-Location@{get\-All\-Pictures\-Order\-By\-Location}!com::android::ePerion::gallery::database::PicturesDBAdapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}}
+\subsubsection[{get\-All\-Pictures\-Order\-By\-Location}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Picture}$>$ com.\-android.\-e\-Perion.\-gallery.\-database.\-Pictures\-D\-B\-Adapter.\-get\-All\-Pictures\-Order\-By\-Location (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_pictures_d_b_adapter_afdace2da0d5d639e4483a0539f5e1198}
+Get all the pictures order by the location where the pictures were taken. \begin{DoxyReturn}{Returns}
+An Array\-List of all pictures that belong to the database. 
+\end{DoxyReturn}
+\index{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}!get\-All\-Pictures\-Order\-By\-Name@{get\-All\-Pictures\-Order\-By\-Name}}
+\index{get\-All\-Pictures\-Order\-By\-Name@{get\-All\-Pictures\-Order\-By\-Name}!com::android::ePerion::gallery::database::PicturesDBAdapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}}
+\subsubsection[{get\-All\-Pictures\-Order\-By\-Name}]{\setlength{\rightskip}{0pt plus 5cm}Array\-List$<${\bf Picture}$>$ com.\-android.\-e\-Perion.\-gallery.\-database.\-Pictures\-D\-B\-Adapter.\-get\-All\-Pictures\-Order\-By\-Name (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_pictures_d_b_adapter_adb54c5c496af080f4cf49bd8480236a6}
+Get all the pictures order by their name. \begin{DoxyReturn}{Returns}
+An Array\-List of all pictures that belong to the database. 
+\end{DoxyReturn}
+\index{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}!get\-Database@{get\-Database}}
+\index{get\-Database@{get\-Database}!com::android::ePerion::gallery::database::PicturesDBAdapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}}
+\subsubsection[{get\-Database}]{\setlength{\rightskip}{0pt plus 5cm}S\-Q\-Lite\-Database com.\-android.\-e\-Perion.\-gallery.\-database.\-Pictures\-D\-B\-Adapter.\-get\-Database (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_pictures_d_b_adapter_a73461e9ed7af417e5b77133c017361c8}
+Get the current database. \begin{DoxyReturn}{Returns}
+A S\-Q\-Lite database. 
+\end{DoxyReturn}
+\index{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}!get\-Picture@{get\-Picture}}
+\index{get\-Picture@{get\-Picture}!com::android::ePerion::gallery::database::PicturesDBAdapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}}
+\subsubsection[{get\-Picture}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Picture} com.\-android.\-e\-Perion.\-gallery.\-database.\-Pictures\-D\-B\-Adapter.\-get\-Picture (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_pictures_d_b_adapter_a285c3c01b14c7bf21814eabf578592e0}
+Return a picture based on its I\-D. 
+\begin{DoxyParams}{Parameters}
+{\em id} & \doxyref{Picture}{p.}{classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_picture} I\-D. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A picture. 
+\end{DoxyReturn}
+\index{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}!insert\-Picture@{insert\-Picture}}
+\index{insert\-Picture@{insert\-Picture}!com::android::ePerion::gallery::database::PicturesDBAdapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}}
+\subsubsection[{insert\-Picture}]{\setlength{\rightskip}{0pt plus 5cm}void com.\-android.\-e\-Perion.\-gallery.\-database.\-Pictures\-D\-B\-Adapter.\-insert\-Picture (
+\begin{DoxyParamCaption}
+\item[{{\bf Picture}}]{pic}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_pictures_d_b_adapter_a29982b3d4b4f32f302280f853aa4ec7c}
+Insert a new picture in the picture database.
+
+
+\begin{DoxyParams}{Parameters}
+{\em pic} & the pic \\
+\hline
+\end{DoxyParams}
+\index{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}!open@{open}}
+\index{open@{open}!com::android::ePerion::gallery::database::PicturesDBAdapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}}
+\subsubsection[{open}]{\setlength{\rightskip}{0pt plus 5cm}void com.\-android.\-e\-Perion.\-gallery.\-database.\-Pictures\-D\-B\-Adapter.\-open (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_pictures_d_b_adapter_aaf9ac928177049ad4db52b2f4d6bdb6e}
+Open the database. \index{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}!remove\-Picture@{remove\-Picture}}
+\index{remove\-Picture@{remove\-Picture}!com::android::ePerion::gallery::database::PicturesDBAdapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}}
+\subsubsection[{remove\-Picture}]{\setlength{\rightskip}{0pt plus 5cm}void com.\-android.\-e\-Perion.\-gallery.\-database.\-Pictures\-D\-B\-Adapter.\-remove\-Picture (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_pictures_d_b_adapter_ad66e6d713e2570fc1d1ad8f8dec99c0e}
+Remove the selected picture with its I\-D. 
+\begin{DoxyParams}{Parameters}
+{\em id} & \doxyref{Picture}{p.}{classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_picture} I\-D. \\
+\hline
+\end{DoxyParams}
+\index{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}!remove\-Picture@{remove\-Picture}}
+\index{remove\-Picture@{remove\-Picture}!com::android::ePerion::gallery::database::PicturesDBAdapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}}
+\subsubsection[{remove\-Picture}]{\setlength{\rightskip}{0pt plus 5cm}void com.\-android.\-e\-Perion.\-gallery.\-database.\-Pictures\-D\-B\-Adapter.\-remove\-Picture (
+\begin{DoxyParamCaption}
+\item[{String}]{name}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_pictures_d_b_adapter_a5a06e7aa599bd4deae7875ca51d1450b}
+Remove the selected picture from its Uri.
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & the name \\
+\hline
+\end{DoxyParams}
+\index{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}!update\-Picture@{update\-Picture}}
+\index{update\-Picture@{update\-Picture}!com::android::ePerion::gallery::database::PicturesDBAdapter@{com\-::android\-::e\-Perion\-::gallery\-::database\-::\-Pictures\-D\-B\-Adapter}}
+\subsubsection[{update\-Picture}]{\setlength{\rightskip}{0pt plus 5cm}void com.\-android.\-e\-Perion.\-gallery.\-database.\-Pictures\-D\-B\-Adapter.\-update\-Picture (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{{\bf Picture}}]{picture\-To\-Update}
+\end{DoxyParamCaption}
+)}\label{classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_pictures_d_b_adapter_aa524ba0088416e6b0465aa0d20233515}
+Update a row thanks to its I\-D and the new picture attributes. 
+\begin{DoxyParams}{Parameters}
+{\em id} & Row I\-D. \\
+\hline
+{\em picture\-To\-Update} & \doxyref{Picture}{p.}{classcom_1_1android_1_1e_perion_1_1gallery_1_1database_1_1_picture} object with the new attributes. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+C\-:/\-Data\-Julien/\-Programmes info/\-E-\/\-Perion Gallery/src/com/android/e\-Perion/gallery/database/Pictures\-D\-B\-Adapter.\-java\end{DoxyCompactItemize}

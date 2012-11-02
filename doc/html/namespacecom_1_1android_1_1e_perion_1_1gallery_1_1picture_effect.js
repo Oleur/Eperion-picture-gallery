@@ -1,0 +1,4 @@
+var namespacecom_1_1android_1_1e_perion_1_1gallery_1_1picture_effect =
+[
+    [ "PictureColorEffect", "classcom_1_1android_1_1e_perion_1_1gallery_1_1picture_effect_1_1_picture_color_effect.html", "classcom_1_1android_1_1e_perion_1_1gallery_1_1picture_effect_1_1_picture_color_effect" ]
+];
